@@ -12,7 +12,7 @@ function checkPrimeNumb(numb){
 }
 checkBtn.addEventListener("click", showResult);
 clearBtn.addEventListener("click", clearAll);
-input.addEventListener("keypress", (ev) =>{
+input.addEventListener("keypress", (ev)=>{
 	if(ev.key === "Enter"){
 		showResult()
 	}
@@ -24,7 +24,7 @@ function showResult(){
 	h1.innerHTML ="";
 	if (inputValue <= 1000000){
 		if(input.value === "0" || input.value === "1"){
-			h1.innerHTML = "1 is Neither <b>Prime</b> Nor <b>Composite</b> Number";
+			h1.innerHTML = "1 is Neither a <b>Prime</b> Nor <b>Composite</b> Number";
 		}
 		else if (isPrimer && inputLength !== 0){
 				h1.innerHTML = ""+inputValue+" is a <b>Prime</b> Number";
