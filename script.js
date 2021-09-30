@@ -27,7 +27,7 @@ function showResult(){
 			h1.innerHTML = "1 is Neither <b>Prime</b> Nor <b>Composite</b> Number";
 		}
 		else if (isPrimer && inputLength !== 0){
-				h1.innerHTML = "Yes! "+inputValue+" is a <b>Prime</b> Number";
+				h1.innerHTML = ""+inputValue+" is a <b>Prime</b> Number";
 		}
 		else if(!isPrimer && inputLength !== 0){
 			h1.innerHTML = ""+inputValue+" is a <b>Composite</b> Number";
